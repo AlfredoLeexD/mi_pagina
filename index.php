@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="public/css/bootstrap.css">
+	<link rel="shortcut icon"href="public/imagenes/KJsM-O4v.jpg" />
 	</head>
 		<body>
 
@@ -32,7 +34,7 @@
 				</ul>
 				<form class="navbar-form navbar-left" role="search">
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="aa">
+						<input type="text" class="form-control" placeholder="Busqueda">
 						<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">VER TOP DE TODOS LOS AÑOS<b class="caret"></b></a>
@@ -62,6 +64,10 @@
 			<li data-target="#carousel-id" data-slide-to="0" class=""></li>
 			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
 			<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+			<li data-target="#carousel-id" data-slide-to="3" class="active"></li>
+			<li data-target="#carousel-id" data-slide-to="4" class="
+			active"></li>
+			<li data-target="#carousel-id" data-slide-to="5" class="active"></li>
 		</ol>
 		<div class="carousel-inner">
 			<div class="item">
@@ -71,19 +77,19 @@
 						<h1>ESCUCHA LA MEJOR MUSICA DE TERCER CIELO</h1>
 						<p></p>
 
-						<p><a class="btn btn-lg btn-primary" a href="http://tercercielooficial.com/" target="http://tercercielooficial.com/" role="button">PAGINA OFICIAL TERCER CIELO</a></p>
-						<p><a class="btn btn-lg btn-primary" href="http://www.musicascristianas.online/tercer-cielo">ESCUCHAR MUSICA AQUI</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://tercercielooficial.com/" role="button">PAGINA OFICIAL TERCER CIELO</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="https://videofull.herokuapp.com/" >VIDEO VARIADO</a></p>
 					</div>
 				</div>
 			</div>
 			<div class="item">
-				<img data-src="public/imagenes/2.jpg" alt="Second slide" src="public/imagenes/2.jpg" width="1058">
+				<img data-src="public/imagenes/capital-kings.jpg" alt="Second slide" src="public/imagenes/capital-kings.jpg" width="1058">
 				<div class="container">
 					<div class="carousel-caption">
-						<h1>ESCUHA LA MEJOR MUSICA DE SWITCHFOOT</h1>
+						<h1>ESCUCHA LA MEJOR MUSICA DE CAPITAL KINGS</h1>
 						<p></p>
-						<p><a class="btn btn-lg btn-primary" href="http://www.grandiscomp3.com/gospel/switchfoot/" role="button">ESCUCHAR AQUI</a></p>
-						<p><a class="btn btn-lg btn-primary" href="http://switchfoot.com/">PAGINA WEB OFICIAL</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://www.capitalkingsmusic.com/#home2">PAGINA WEB OFICIAL CAPITAL KINGS</a></p>
+						<p><a class="btn btn-lg btn-primary"  target="_blank" href="https://videofull.herokuapp.com/">VER VIDEOS AQUI</a></p>
 					</div>
 				</div>
 			</div>
@@ -93,12 +99,44 @@
 					<div class="carousel-caption">
 						<h1>ESCUCHA LA MEJOR MUSICA DE ALEX CAMPOS</h1>
 						<p></p>
-						<p><a class="btn btn-lg btn-primary" href="http://alexcampos.com.co/">PAGINA WEB OFICIAL</a></p>
-						<p><a class="btn btn-lg btn-primary" href="http://www.musicascristianas.online/alex-campos">ESCUCHAR MUSICA AQUI</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://alexcampos.com/">PAGINA WEB OFICIAL</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="https://videofull.herokuapp.com/">VER VIDEOS AQUI</a></p>
 					</div>
 				</div>
-
-			</div>            
+			</div>  
+			<div class="item">
+				<img data-src="public/imagenes/2.jpg" alt="First slide" src="public/imagenes/2.jpg" width="911">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>ESCUCHA LA MEJOR MUSICA DE SWITCHFOOT</h1>
+						<p></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://switchfoot.com/" role="button">PAGINA OFICIAL SWITCHFOOT</a></p>
+						<p><a class="btn btn-lg btn-primary" href="https://videofull.herokuapp.com/" target="_blank">VER VIDEOS AQUI</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="public/imagenes/andy-mineo-2015-new.jpg" alt="First slide" src="public/imagenes/andy-mineo-2015-new.jpg" width="911">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>VER VIDEO ANDY MINEO FT LECRAE</h1>
+						<p></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://www.andymineo.com/" role="button">PAGINA OFICIAL ANDY MINEO</a></p>
+						<p><a class="btn btn-lg btn-primary" href="https://videofull.herokuapp.com/" target="_blank">VER VIDEOS AQUI</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="public/imagenes/1.jpg" alt="First slide" src="public/imagenes/1.jpg" width="911">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>ESCUCHA LA MEJOR MUSICA DE NEWSBOYS</h1>
+						<p></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="http://newsboys.com/loveriot/" role="button">PAGINA OFICAL NEWSBOYS</a></p>
+						<p><a class="btn btn-lg btn-primary" target="_blank" href="https://videofull.herokuapp.com/">MIRA VIDEOS AQUI</a></p>
+					</div>
+				</div>
+			</div>          
 		</div>
 		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
